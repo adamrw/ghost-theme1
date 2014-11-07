@@ -1,30 +1,32 @@
+// window.ghostTheme1 = {};
+window.ghostTheme1.baseUrl = 'http://localhost:2368';
 window.ghostTheme1.config = { 
-	
+		
 		logo: '[YOUR LOGO]',
 		author: {			
 				social: [
 					{ 
-						href: 'https://github.com/[YOUR ACCOUNT]',
+						href: 'https://github.com/adamrw/',
 					  icon: 'fa-github',
 						title: 'Github'
 					},
 					{ 
-						href: 'https://twitter.com/[YOUR ACCOUNT]',
+						href: 'https://twitter.com/adamweiner/',
 					  icon: 'fa-twitter',
 						title: 'Twitter'
 					},
 					{ 
-						href: 'https://linkedin.com/[YOUR ACCOUNT]',
+						href: 'https://www.linkedin.com/in/adamweiner',
 					  icon: 'fa-linkedin',
 						title: 'LinkedIn'
 					},
 					{ 
-						href: 'mailto:[YOUR EMAIL]',
+						href: 'mailto: adamwineguy@gmail.com',
 					  icon: 'fa-envelope',
 						title: 'Email'
 					},
 					{ 
-						href: techno.baseUrl + '/rss/',
+						href: window.ghostTheme1.baseUrl + '/rss/',
 					  icon: 'fa-rss',
 						title: 'Rss'
 					}
@@ -45,9 +47,10 @@ window.ghostTheme1.config = {
 		},
 
 		menu: [
-				{ route: '', text: 'Home'},
-				{ route: ghostTheme1.baseUrl + '/about', text: 'About'},
-				{ route: ghostTheme1.baseUrl + '/projects', text: 'Projects'}
+				{ route: window.ghostTheme1.baseUrl + '/', text: 'Home'},
+				{ route: window.ghostTheme1.baseUrl + '/about', text: 'About'},
+				{ route: window.ghostTheme1.baseUrl + '/projects', text: 'Projects'},
+				{ route: window.ghostTheme1.baseUrl + '/myposts', text: 'Posts'}
 		]
 };
 
