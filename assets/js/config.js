@@ -54,5 +54,5 @@ window.ghostTheme1.config = {
 		]
 };
 
-// change to see if commit possible
+// changing text for theme commit
 	
