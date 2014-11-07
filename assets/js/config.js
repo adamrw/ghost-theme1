@@ -50,4 +50,6 @@ window.ghostTheme1.config = {
 				{ route: ghostTheme1.baseUrl + '/projects', text: 'Projects'}
 		]
 };
+
+// change to see if commit possible
 	
