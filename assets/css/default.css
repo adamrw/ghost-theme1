@@ -9,6 +9,10 @@
 
 /*changing text for commit*/
 
+.odamae-button {
+  color: cornflowerblue;
+}
+
 .hljs {
   display: block;
   padding: 0.5em;

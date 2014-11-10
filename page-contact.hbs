@@ -1,0 +1,33 @@
+{{!< default}}
+
+{{! This is a page template. A page outputs content just like any other post, and has all the same
+    attributes by default, but you can also customize it to behave differently if you prefer. }}
+
+<main class="content" role="main">
+
+    <article class="{{post_class}}">
+        {{#post}}
+
+        <h1 class="post-title">{{{title}}}</h1>
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        {{/post}}
+
+         <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
+		<form id="odamae-contact-form" method="post" style="display: none">
+		    <div class="odamae-row">
+				<input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
+				<input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" />
+				<textarea class="odamae-textarea" name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+		    </div>
+		    <div class="odamae-row visual-captcha"></div>
+		    <div class="odamae-row actions">
+				<input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_6078eafb23841f78ab610c2d372e2ba7_2c4c" />
+		    </div>
+		</form>
+
+    </article>
+
+</main>
