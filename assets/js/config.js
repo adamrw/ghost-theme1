@@ -1,5 +1,5 @@
 // window.ghostTheme1 = {};
-window.ghostTheme1.baseUrl = 'http://localhost:2368';
+window.ghostTheme1.baseUrl = 'http://adams-ghost-setup.herokuapp.com';
 window.ghostTheme1.config = { 
 		
 		logo: '[YOUR LOGO]',
