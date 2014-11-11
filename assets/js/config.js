@@ -50,7 +50,8 @@ window.ghostTheme1.config = {
 				{ route: window.ghostTheme1.baseUrl + '/', text: 'Home'},
 				{ route: window.ghostTheme1.baseUrl + '/about', text: 'About'},
 				{ route: window.ghostTheme1.baseUrl + '/projects', text: 'Projects'},
-				{ route: window.ghostTheme1.baseUrl + '/contact', text: 'Contact'}
+				{ route: window.ghostTheme1.baseUrl + '/contact', text: 'Contact'},
+				{ route: window.ghostTheme1.baseUrl + '/fuckyou', text: 'Surprise!'},
 		]
 };
 
