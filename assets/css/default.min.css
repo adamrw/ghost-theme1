@@ -19,6 +19,7 @@
 
 .blog-title {
     color: darkslateblue;
+    font-weight: bolder;
 }
 
 .hljs-comment,.hljs-javadoc,.hljs-shebang,.hljs-template_comment {
@@ -1333,7 +1334,7 @@ hr {
 }
 
 .h5,h5 {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .h6,h6 {
