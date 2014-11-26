@@ -1,5 +1,6 @@
 // window.ghostTheme1 = {};
-window.ghostTheme1.baseUrl = 'http://adams-ghost-setup.herokuapp.com';
+// window.ghostTheme1.baseUrl = 'http://adams-ghost-setup.herokuapp.com';
+window.ghostTheme1.baseUrl = 'http://www.adamrweiner.com';
 window.ghostTheme1.config = { 
 		
 		logo: '[YOUR LOGO]',
@@ -51,7 +52,7 @@ window.ghostTheme1.config = {
 				{ route: window.ghostTheme1.baseUrl + '/about', text: 'About'},
 				{ route: window.ghostTheme1.baseUrl + '/projects', text: 'Projects'},
 				{ route: window.ghostTheme1.baseUrl + '/contact', text: 'Contact'},
-				{ route: window.ghostTheme1.baseUrl + '/fuckyou', text: 'Surprise!'},
+				// { route: window.ghostTheme1.baseUrl + '/fuckyou', text: 'Surprise!'},
 		]
 };
 
